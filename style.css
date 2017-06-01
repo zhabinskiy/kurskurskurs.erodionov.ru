@@ -119,6 +119,70 @@ ul li:before {
   padding-bottom: 25px;
 }
 
+label {
+  display: inline-block;
+}
+
+.paragraph-form {
+  margin-bottom: 60px;
+}
+
+.tinkoffPayRow {
+  display: block;
+  width: 290px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 10px 14px;
+  outline: none;
+  border: 2px solid transparent;
+  transition: .2s;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.tinkoffPayRow:focus {
+  border: 2px solid #ee5d89;
+}
+
+.tinkoffPayButton {
+  width: 320px;
+  font-family: Courier New, Courier, monospace;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #ee5d89;
+  border: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.tinkoffPayButton:hover {
+  background: #e25882;
+}
+
+.tinkoffPayButton:active {
+  position: relative;
+  transform: scale(.99);
+}
+
+@media screen and (max-width: 380px) {
+  .paragraph-form {
+    max-width: 330px;
+  }
+  label {
+    width: 88%;
+  }
+  .tinkoffPayRow, .tinkoffPayButton {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .tinkoffPayButton {
+    width: 99%;
+  }
+}
+
 footer {
   text-align: right;
 }
