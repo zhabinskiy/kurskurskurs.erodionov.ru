@@ -211,6 +211,10 @@ label {
 
 .results-link {
   color: #000;
+  border-bottom: 1px solid #F8B1C6;
+  box-shadow: inset 0 -5px 0px 0px #F8B1C6;
+  font-family: monospace;
+  text-decoration: none;
 }
 
 footer {
